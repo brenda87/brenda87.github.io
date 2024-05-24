@@ -28,6 +28,10 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 
 - [[May 20, 2024]] [bizness](https://brenda87.github.io/posts/hackthebox/bizness.html) `OFBiz` `Authentication-Bypass` 
 
+
+* * *
+
+
 <footer>
     <p>&copy; 2024 Brenda's Cyber Fortress. All rights reserved.</p>
   </footer>
