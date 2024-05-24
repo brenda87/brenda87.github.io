@@ -3,14 +3,7 @@ layout: default
 title: Home
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brenda's Cyber Fortress</title>
-</head>
-<body>
+
   <header>
     <h1>Brenda's Cyber Fortress 🛡️</h1>
     <p>Welcome to My Digital Realm 🌐</p>
@@ -27,20 +20,16 @@ title: Home
     </ul>
   </section>
 
-  <section id="connect">
-    <h2>Connect with Me 📬</h2>
-    <ul>
-      <li><strong>LinkedIn 💼:</strong> (https://www.linkedin.com/in/brenda-kawira-162875222/)</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Brenda's Cyber Fortress. All rights reserved.</p>
-  </footer>
-</body>
-</html>
-
+ <p><strong>GitHub :</strong> <a href="https://github.com/brenda87">github.com/brenda87</a></p>
+ <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/brenda-kawira-162875222/">github.com/Muzec0318</a></p>
+  
 
 <h4 class="mume-header" id="hackthebox">HackTheBox: Where Hackers Thrive</h4>
 <p>Get ready to dive into <em>Hack The Box</em>, the ultimate playground for hackers! With over 1.7 million members, we hack, learn, and grow together. Join us as we explore, learn, and conquer the digital frontier!</p>
 <hr>
+
+
+
+<footer>
+    <p>&copy; 2024 Brenda's Cyber Fortress. All rights reserved.</p>
+  </footer>
