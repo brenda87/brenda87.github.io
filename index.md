@@ -4,11 +4,11 @@ title: Home
 ---
 
 
-  
+  <header>
     <h1>Brenda's Cyber Fortress 🛡️</h1>
     <p>Welcome to My Digital Realm 🌐</p>
     <p>I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities and secure the digital world. Join me as I delve into the depths of cybersecurity, one exploit at a time.</p>
- 
+  </header>
 
   <section id="features">
     <h2>Features ✨</h2>
