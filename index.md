@@ -15,9 +15,8 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 - **Project Showcases** 💻: Detailed walkthroughs of my security projects.
 - **Resource Library** 📚: A curated collection of tools, guides, and references.
 
-#### Connect with Me 📬
-- **[LinkedIn](https://www.linkedin.com/in/brenda-kawira-162875222/)** 
-
+<p><strong>GitHub :</strong> <a href="https://github.com/brenda87">github.com/brenda87</a></p>
+<p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/brenda-kawira-162875222/">linkedin.com/brenda</a></p>
 
 
 * * *
