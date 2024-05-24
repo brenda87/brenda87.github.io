@@ -21,7 +21,7 @@ title: Home
   </section>
 
  <p><strong>GitHub :</strong> <a href="https://github.com/brenda87">github.com/brenda87</a></p>
- <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/brenda-kawira-162875222/"></a></p>
+ <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/brenda-kawira-162875222/">linkedin.com/brenda</a></p>
   
 
 <h4 class="mume-header" id="hackthebox">HackTheBox: Where Hackers Thrive</h4>
