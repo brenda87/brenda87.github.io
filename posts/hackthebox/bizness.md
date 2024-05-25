@@ -35,7 +35,7 @@ I navigated to `/bizness.htb/accounting/` and encountered a login page, indicati
 
 I researched OFBiz vulnerabilities and stumbled upon a relevant article, suggesting potential exploits that could be leveraged within the OFBiz framework.
 
-[Apache-OFBiz-Authentication-Bypass](https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass)
+[Article: Apache-OFBiz-Authentication-Bypass](https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass)
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(29).png)
 
