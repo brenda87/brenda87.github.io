@@ -76,7 +76,8 @@ I chanced upon a curious file named `c54d0.dat` hiding in the shadows of `/opt/o
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(39).png)
 
  I stumbled upon an article detailing an Apache-OFBiz-SHA1-Cracker. This tool promised to crack the SHA1 hash protecting the password I found
-[Apache-OFBiz-SHA1-Cracker](https://github.com/duck-sec/Apache-OFBiz-SHA1-Cracker)
+ 
+[Article: Apache-OFBiz-SHA1-Cracker](https://github.com/duck-sec/Apache-OFBiz-SHA1-Cracker)
 
  ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(41).png)
 
