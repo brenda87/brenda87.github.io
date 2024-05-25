@@ -5,7 +5,7 @@ title : brenda - bizness HTB Writeup
 
 
 
-![image](https://github.com/brenda87/brenda87.github.io/blob/main/assets/images/bizness/Screenshot%20(68).png)
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(68).png)
 
 Bizness" is your trusty training ground—an easy box designed to warm up your hacking muscles. 
 
