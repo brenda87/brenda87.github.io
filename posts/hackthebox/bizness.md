@@ -26,7 +26,7 @@ I conducted a directory search of the `bizness.htb` website using `dirsearch`, u
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(30).png)
 
-I navigated to `/bizness.htb/accounting/` and encountered a login page, indicating potential access to sensitive financial information or administrative controls.
+I navigated to `/bizness.htb/accounting/` and encountered a login page, indicating potential access to sensitive financial information.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(28).png)
 
