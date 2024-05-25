@@ -71,7 +71,7 @@ In a twist of fate, the discovered password from the templates proved futile in 
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(39).png)
 
-I chanced upon a curious file named 'c54d0.dat' hiding in the shadows of '/opt/ofbiz/runtime/data/derby/ofbiz/seg0'. Opening it, I discovered a secret code—a hash guarding the current password! 
+I chanced upon a curious file named `c54d0.dat` hiding in the shadows of `/opt/ofbiz/runtime/data/derby/ofbiz/seg0`. Opening it, I discovered a secret code—a hash guarding the current password! 
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/bizness/Screenshot%20(39).png)
 
