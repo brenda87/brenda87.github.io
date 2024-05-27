@@ -26,7 +26,8 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 <p>Get ready to dive into <em>Hack The Box</em>, the ultimate playground for hackers! Join me as I explore, learn, and conquer the digital frontier!</p>
 <hr>
 
-- [[May 20, 2024]] [bizness](posts/hackthebox/bizness.md) `OFBiz,` `Authentication-Bypass` 
+- [[May 15, 2024]] [bizness](posts/hackthebox/bizness.md) `OFBiz,` `Authentication-Bypass`
+- [[May 20, 2024]] [skyfall](posts/hackthebox/skyfall.md) `MinIO,` `Information leak`
 
 
 * * *
