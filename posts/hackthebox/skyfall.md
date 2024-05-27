@@ -40,7 +40,7 @@ Using the demo account details, I successfully logged into the page and gained a
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/skyfall/Screenshot%20(77).png)
 
-The system identified itself as a MinIO storage system. However, we managed to bypass it by appending `%0A` to the URL.
+The system identified itself as a MinIO storage system. However, I managed to bypass it by appending `%0A` to the URL.
 Towards the bottom of the page, I stumbled upon a promising domain that piqued my interest.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/skyfall/Screenshot%20(78).png)
