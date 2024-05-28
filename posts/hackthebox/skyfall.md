@@ -86,7 +86,7 @@ I logged in via the dev_otp_key_role and utilized the provided OTP as the passwo
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/skyfall/Screenshot%20(98).png)
 
-With a triumphant "boom," I successfully retrieved the `user flag`, marking a significant milestone in my journey through Skyfall.
+With a triumphant BOOM! I successfully retrieved the `user flag`, marking a significant milestone in my journey through Skyfall.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/skyfall/Screenshot%20(90).png)
 
