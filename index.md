@@ -35,5 +35,5 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 
 
 <footer>
-    <p>&copy; 2024 Brenda's Cyber Fortress. All rights reserved.</p>
+    <p>&copy; 2024 Brenda. All rights reserved.</p>
   </footer>
