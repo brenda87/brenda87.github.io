@@ -19,7 +19,5 @@ I added the target IP to `/etc/hosts` to access the website.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/usage/Screenshot%20(100).png)
 
-Then, I accessed the usage.htb website.
-
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/usage/Screenshot%20(101).png)
 
