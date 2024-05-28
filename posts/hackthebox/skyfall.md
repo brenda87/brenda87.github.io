@@ -1,6 +1,6 @@
 ---
 layout: default
-title : brenda - bizness HTB Writeup
+title : brenda - skyfall HTB Writeup
 ---
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/skyfall/Screenshot%20(94).png)
