@@ -36,6 +36,11 @@ The `/support` URI allows payload injection, triggering a hacking protection ale
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(126).png)
 
+### User flag
+
+### Cookie stealing
+I looked for how to steal cookies and found this [article](https://pswalia2u.medium.com/exploiting-xss-stealing-cookies-csrf-2325ec03136e)
+
 
 
 
