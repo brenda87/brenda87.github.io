@@ -39,8 +39,7 @@ The `/support` URI allows payload injection, triggering a hacking protection ale
 ### User flag
 
 ### Cookie stealing
-I looked for how to steal cookies and found this [article](https://pswalia2u.medium.com/exploiting-xss-stealing-cookies-csrf-2325ec03136e)
-First, I initiated a Python server on port 1234 using the command 
+I looked for how to steal cookies and found this [article](https://pswalia2u.medium.com/exploiting-xss-stealing-cookies-csrf-2325ec03136e). First, I initiated a Python server on port 1234 using the command 
 `python3 -m http.server 1234`
 Then, I captured an HTTP request and sent it to Repeater. 
 Within Repeater, I injected a cookie-stealing payload into reflected headers like "User-Agent", "Accept" and "message" until I got a response. 
