@@ -1,4 +1,4 @@
-![image](https://github.com/brenda87/brenda87.github.io/assets/79244433/07fdc9eb-de9c-438b-be85-93ec2674a8e1)---
+---
 layout: default
 title : brenda - headless HTB Writeup
 ---
