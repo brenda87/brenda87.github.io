@@ -8,7 +8,7 @@ title : brenda - headless HTB Writeup
 
 `Headless` is an easy machine in HTB.
 
-### REcon
+### Recon
 ### Nmap scan
 `Nmap` detects two open ports on headless: ssh (80) and http UPnP(5000). Port 5000  seems to return a web page under construction.
 
