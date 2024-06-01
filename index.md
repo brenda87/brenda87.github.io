@@ -30,7 +30,7 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 - [[May 12, 2024]] [perfection](posts/hackthebox/perfection.md) `server-side template injection` 
 - [[May 15, 2024]] [skyfall](posts/hackthebox/skyfall.md) `MinIO,` `Information leak`
 - [[May 18, 2024]] [usage](posts/hackthebox/usage.md) `SQL Injection`
-- [[May 18, 2024]] [headless](posts/hackthebox/headless.md) `SQL Injection`
+- [[May 18, 2024]] [headless](posts/hackthebox/headless.md) `reflected-XSS`
 
 
 * * *
