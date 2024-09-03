@@ -32,7 +32,7 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 - [[May 18, 2024]] [usage](posts/hackthebox/usage.md) `SQL Injection`
 - [[May 20, 2024]] [headless](posts/hackthebox/headless.md) `reflected-XSS`
 - [[May 24, 2024]] [wifinetictwo](posts/hackthebox/wifinetictwo.md) `OpenPLC,` `WiFi,` `Pixie Dust attack,` `OneShot`
-
+- [[June 10, 2024]] [usage](posts/hackthebox/boardlight.md) `Dolibarr,` `SUID`
 
 * * *
 
