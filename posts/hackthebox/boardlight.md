@@ -48,6 +48,36 @@ Then I searched for vulnerabilities in Dolibarr version 17.0.0 and came across C
 
 I exploited the vulnerability and got a reverse shell.
 
+![Screenshot (532)](https://github.com/user-attachments/assets/4983cea9-b5e6-468f-bdbe-f3aa2ad9eba9)
+
+![Screenshot (525)](https://github.com/user-attachments/assets/4e77dd65-5468-4f22-a066-8780ca493553)
+
+In the directory www-data@boardlight:~/html/crm.board.htb/htdocs$, we notice several directories, including a "conf" directory. Navigating to it using cd conf, we discover three configuration files. Upon inspecting them, we find one particularly interesting file, conf.php, containing valuable information. Contents of conf.php reveals Username & Password
+
+![Screenshot (527)](https://github.com/user-attachments/assets/eabdd1d0-4537-41b2-888b-f015ea62f109)
+
+Checked /etc/passwd file’s content, found 2 shell users. One is root and the other one is larissa. Logged in as user larissa with using the password we found before by using ssh.
+We successfully logged in via SSH as the larissa user, allowing us to retrieve the user flag!
+
+![Screenshot (528)](https://github.com/user-attachments/assets/27d99322-9042-4359-b6da-dba717a161c9)
+
+## Privilege Escalation
+
+I examined the SUID files and identified that one of them was running Enlightenment version 0.23.1, which is known to be vulnerable. This SUID file was exploited using CVE-2022-37706.
+
+![Screenshot (530)](https://github.com/user-attachments/assets/95c94f00-3fd0-4d18-9b29-4363d361029e)
+
+And there I got root flag!!
+
+![Screenshot (531)](https://github.com/user-attachments/assets/eb2af408-d858-4cbb-8b67-9b6d3fddddb4)
+
+
+* * *
+
+
+<footer>
+    <p>&copy; 2024 Brenda. All rights reserved.</p>
+  </footer>
 
 
 
