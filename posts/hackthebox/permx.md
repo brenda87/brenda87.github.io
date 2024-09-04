@@ -45,7 +45,7 @@ First of all, to get a reverse shell, I started a listener on port 4321 by using
 
 ![Screenshot (517)](https://github.com/user-attachments/assets/81d4077c-b46f-4588-b8c0-43bdb2ecffe5)
 
-And voils, we got a shell!
+And voila, we got a shell!
 
 ![Screenshot (518)](https://github.com/user-attachments/assets/f4912a21-43a9-4869-b045-469d7c83903d)
 
