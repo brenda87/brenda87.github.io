@@ -34,7 +34,7 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 - [[May 24, 2024]] [wifinetictwo](posts/hackthebox/wifinetictwo.md) `OpenPLC,` `WiFi,` `Pixie Dust attack,` `OneShot`
 - [[June 10, 2024]] [Boardlight](posts/hackthebox/boardlight.md) `Dolibarr,` `SUID`
 - [[June 18, 2024]] [PermX](posts/hackthebox/permx.md) `Chamilo,` `RCE`
-- [[June 20, 2024]] [Editorial](posts/hackthebox/editorial.md) `CSRF,` `RCE`
+- [[June 20, 2024]] [Editorial](posts/hackthebox/editorial.md) `SSRF,` `RCE`
 
 * * *
 
