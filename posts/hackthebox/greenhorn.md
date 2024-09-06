@@ -76,6 +76,8 @@ On my machine:
 
 ![Screenshot (565)](https://github.com/user-attachments/assets/54e7484e-bf38-4ff8-a7fa-a0d71a1fc267)
 
+## Root Flag
+
 Here is the PDF file, with the password obscured.
 
 ![Screenshot (569)](https://github.com/user-attachments/assets/56b41295-820e-40c4-9442-d875f5b838d5)
