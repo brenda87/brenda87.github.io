@@ -35,7 +35,7 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 - [[Sep 3, 2024]] [Boardlight](posts/hackthebox/boardlight.md) `Dolibarr,` `SUID`
 - [[Sep 4, 2024]] [PermX](posts/hackthebox/permx.md) `Chamilo,` `RCE`
 - [[Sep 5, 2024]] [Editorial](posts/hackthebox/editorial.md) `SSRF,` `RCE`
-- [[Sep 6, 2024]] [Greenhorn](posts/hackthebox/greenhorn.md) `greenadmin,` `RCE`
+- [[Sep 6, 2024]] [Greenhorn](posts/hackthebox/greenhorn.md) `greenadmin`
 
 * * *
 
