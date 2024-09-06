@@ -64,6 +64,12 @@ Since only ZIP files are allowed for uploads, I compressed the "exploit" folder 
 ![Screenshot (560)](https://github.com/user-attachments/assets/ac3a7921-5b65-4dd4-80fe-b5d991ed330a)
 
 I then select 'exploit.zip' and upload it.
+
+![Screenshot (584)](https://github.com/user-attachments/assets/7b454a9f-4c7b-4f92-a9e1-1273f2fa66b9)
+
+![Screenshot (585)](https://github.com/user-attachments/assets/b6f9ac03-53a9-40fd-abd1-08c38ea1ebf5)
+
+
 Soon after, we received a reverse shell.
 
 ![Screenshot (561)](https://github.com/user-attachments/assets/d74a1437-2e08-475a-b3ed-53dd6e846d3d)
