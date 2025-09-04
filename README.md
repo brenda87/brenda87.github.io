@@ -10,7 +10,7 @@ I am Brenda, a pentester and red teamer on a mission to uncover vulnerabilities 
 - **Resource Library** : A curated collection of tools, guides, and references.
 
 ## Connect with Me 
-- **[LinkedIn](https://www.linkedin.com/in/brenda-kawira-162875222/)** 💼
+- **[LinkedIn](https://www.linkedin.com/in/brenda-kawira-162875222/)** 
 
 
   
